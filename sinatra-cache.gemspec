@@ -4,12 +4,12 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{sinatra-cache}
-  s.version = "0.3.7"
+  s.name = %q{benjaminjackson-sinatra-cache}
+  s.version = "0.3.8"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["kematzy"]
-  s.date = %q{2011-04-08}
+  s.authors = ["kematzy", "benjaminjackson"]
+  s.date = %q{2012-02-13}
   s.description = %q{A Sinatra Extension that makes Page and Fragment Caching easy.}
   s.email = %q{kematzy@gmail.com}
   s.extra_rdoc_files = [
@@ -38,10 +38,10 @@ Gem::Specification.new do |s|
      "spec/sinatra/cache_spec.rb",
      "spec/spec_helper.rb"
   ]
-  s.homepage = %q{http://github.com/kematzy/sinatra-cache}
+  s.homepage = %q{http://github.com/benjaminjackson/sinatra-cache}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.3.7}
+  s.rubygems_version = %q{1.3.8}
   s.summary = %q{A Sinatra Extension that makes Page and Fragment Caching easy.}
   s.test_files = [
     "spec/sinatra/cache_spec.rb",
